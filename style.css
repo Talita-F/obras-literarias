@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+body{
+    background-image: url(imagens/leitura.jpg); 
+    background-position: center center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+body h1, h2, p{
+    font-family: cursive;
+}
+body p {
+    font-size: 1.1em;
+    text-align: justify;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    width: 80%;
+    margin: auto;
+    line-height: 30px;
+}
+div#tela{
+    background-color: rgba(138, 197, 252, 0.616);
+    border-radius: 20px;
+}
+div#menu{ 
+    padding: 25px;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    text-align: end;
+}
+div > a{
+    color: white;
+    padding: 20px;
+    margin-left: 20px;
+    border: 2px black;
+    border-radius: 40px;
+    box-shadow: 2px 3px 4px rgba(9, 111, 207, 0.616);
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: linear-gradient( to bottom, rgba(3, 109, 207, 0.774), rgba(123, 182, 236, 0.774) , rgba(94, 159, 219, 0.616));
+}
+div > a:hover{
+    background-image: linear-gradient( to bottom, rgba(94, 159, 219, 0.616), rgba(123, 182, 236, 0.774) , rgba(3, 109, 207, 0.774));
+}
+h1, h2{
+    text-align: center;
+}
+img{
+    width: 300px;
+}
+p > a{
+    background-color: rgb(2, 2, 95);
+    color: aliceblue;
+    text-decoration: underline;
+    padding: 10px;
+    border-radius: 20px;
+}
+p > a:hover{
+    background-color: aliceblue;
+    color: rgb(2, 2, 95);
+    transition-duration: 5s;
+}
